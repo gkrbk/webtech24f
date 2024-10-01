@@ -1,0 +1,18 @@
+
+
+div#cs9form {
+    width: 64%;
+    background-color: silver;
+    font-family: Arial;
+    font-size: large;
+    margin: 10px auto;
+    border: 2px solid lime;
+    padding-left: 28px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+input#name, select, input#a-grade {
+    margin-left: 14px;
+}
+
