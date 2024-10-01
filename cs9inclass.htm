@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles9.css" />
+</head>
+<body>
+    <h1>
+        CS-9 Class Form
+    </h1>
+    <div id="cs9form">
+        <form method="POST" action="">
+            <p class="form-p">
+                <label for="name">
+                    Please Enter Your Name: 
+                    <input id="name" type="text" placeholder="Enter Name Here" />
+                </label>
+            </p>
+            <p class="form-p">
+                <label for="dropdown">
+                    Please Select Your Class: 
+                    <select name="select-year">
+                        <option value="select-one">(select one)</option>
+                        <option value="freshman">Freshman</option>
+                        <option value="sophomore">Sophomore</option>
+                        <option value="junior">Junior</option>
+                        <option value="senior">Senior</option>
+                    </select>
+                </label>
+            </p>
+            <p class="form-p">
+                Please Select Your Grade: 
+                <label for="a-grade">
+                    <input id="a-grade" type="radio" value="A" name="grade" />
+                    A Grade
+                </label>
+                <label for="b-grade">
+                    <input id="b-grade" type="radio" value="A" name="grade" />
+                    B Grade
+                </label>
+                <label for="c-grade">
+                    <input id="c-grade" type="radio" value="A" name="grade" />
+                    C Grade
+                </label>
+            </p>
+            <p class="form-p">
+                Please Select The Magazines That You Read:
+            </br>
+                <label for="wsj">
+                <input id="wsj" type="checkbox" name="magazine" />
+                Wall Street Journal
+                </label>
+            </br>
+                <label for="bg">
+                <input id="bg" type="checkbox" name="magazine" />
+                Boston Globe
+                </label>
+            </br>
+                <label for="nyt">
+                <input id="nyt" type="checkbox" name="magazine" />
+                New York Times
+                </label>
+            </p>
+            <p class="form-p">
+                Please enter any suggeestions for the course: 
+            </br>
+                <textarea placeholder="Type something here..." rows="7" cols="45"></textarea>
+            </p>
+            <p class="form-p">
+                <input type="submit" name="Submit" value="I am Done" />
+                <input type="reset" name="Reset" value="I am Wrong" />
+            </p>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+
+
+
