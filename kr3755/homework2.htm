@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+
+<html lang="en"> 
+
+  <head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
+	<title>Homework 2</title>
+
+	<style>
+	/* Your styles go here */
+	form {
+		text-align: center;
+		background-image: url("brick.gif");
+		margin: 40px 200px;
+		padding-bottom: 40px;
+		padding-top: 40px;
+	}
+
+	table {
+		font-family: Arial;
+		font-size: 20px;
+		border: 2px solid black;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		width: 60%;
+	}
+
+	caption {
+		font-family: 'Lucida Grande';
+		font-size: 2em;
+		color: navy;
+		font-weight: bold;
+		margin-bottom: 20px;
+	}
+
+	td {
+		border: 2px solid black;
+	}
+
+	.firstcol {
+		width: 35%;
+	}
+
+	.secondcol {
+		width: 20%;
+	}
+
+	.thirdcol {
+		width: 25%;
+	}
+
+	.fourthcol {
+		width: 20%;
+	} 
+
+	input#submit-button {
+		height: 30px;
+		background-color: green;
+	}
+
+	input#reset-button {
+		height: 30px;
+		background-color: yellow;
+	}
+
+	img {
+		width: 45%;
+	}
+
+	.quantity-text {
+		width: 70%;
+	}
+
+	</style>
+	
+	<script>
+	/* Your JavaScript goes here */
+	  
+	</script>
+  </head>
+
+  <body>
+	<!-- Your HTML goes here -->
+	<form method="POST" action="">
+		<table>
+			<caption>Catalog of Sweaters</caption>
+			<tr>
+				<td class="firstcol">Product Image</td>
+            	<td class="secondcol">Product Price</td>
+           	 	<td class="thirdcol">Product Selection</td>
+				<td class="fourthcol">Product Quantity</td>
+			</tr>
+			<tr>
+				<td class="firstcol">
+					<img src="redsweater.jpg" alt="Red Sweater Image" title="Favorite Red Sweater" />
+				</td>
+				<td class="secondcol">
+					$35.00
+				</td>
+				<td class="thirdcol">
+					<input type="radio" name="selection" />
+					Red Sweater
+				</td>
+				<td class="fourthcol">
+					Quantity:
+					<input class="quantity-text" type="text"/>
+				</td>
+			</tr>
+			<tr>
+				<td class="firstcol">
+					<img src="bluesweater.jpg" alt="Blue Sweater Image" title="Favorite Blue Sweater" />
+				</td>
+				<td class="secondcol">
+					$45.00
+				</td>
+				<td class="thirdcol">
+					<input type="radio" name="selection" />
+					Blue Sweater
+				</td>
+				<td class="fourthcol">
+					Quantity:
+					<input class="quantity-text" type="text" />
+				</td>
+			</tr>
+			<tr>
+				<td class="firstcol">
+					<img src="whitesweater.jpg" alt="White Sweater Image" title="Favorite White Sweater" />
+				</td>
+				<td class="secondcol">
+					$30.00
+				</td>
+				<td class="thirdcol">
+					<input type="radio" name="selection" />
+					White Sweater
+				</td>
+				<td class="fourthcol">
+					Quantity:
+					<input class="quantity-text" type="text" />
+				</td>
+			</tr>
+		</table>
+		<p class="form-p">
+			<input id="submit-button" type="submit" name="Submit" value="Submit Selections" />
+        	<input id="reset-button" type="reset" name="Reset" value="Clear Selections" />
+		</p>
+		
+	</form>
+  </body>
+</html>
