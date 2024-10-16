@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="about_lebron.htm">About Lebron</a></li>
+                <li><a href="highlights.htm">Highlights</a></li>
+                <li><a href="statistics.htm">Statistics</a></li>
+                <li><a href="history_of_basketball.htm">History of Basketball</a></li>
+                <li><a href="nba_legends_opinions.htm">NBA Legends Opinions</a></li>
+                <li><a href="about_me.htm">About Me</a></li>
+                <li><a href="contact_us.htm">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Contact Me Below</h2>
+        <form method="post" action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <fieldset>
+                <legend>Subscribe to LeBron Newsletters:</legend>
+                <input type="checkbox" id="news" name="subscribe" value="news">
+                <label for="news"> Basketball News</label><br>
+                <input type="checkbox" id="updates" name="subscribe" value="updates">
+                <label for="updates"> Lebron James Updates</label>
+            </fieldset><br>
+
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="fan">Fan Message</option>
+                <option value="inquiry">General Inquiry</option>
+                <option value="support">Support</option>
+            </select><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LeBron James Fanpage - George Kang-Rosenthal</p>
+    </footer>
+</body>
+</html>
