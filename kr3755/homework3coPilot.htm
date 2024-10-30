@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Homework 3 - processing forms</title>
+    <style>
+        /* Your styles go here */
+        form {background-color: silver; font-family: Arial; color: Navy; padding-left: 50px; padding-top: 20px; padding-bottom: 20px; margin-right: auto; margin-left: auto; width: 60%;}
+        .but {width: 200px; height: 60px; background-color: magenta; color: black;}
+        p#desc {margin: 50px 200px; font-family: cursive;}
+        h3 {font-family: lucida handwriting; font-size: 3em; text-align: center;}
+    </style>
+    <script>
+        function validateForm() {
+            var product = document.forms[0]["product"].value;
+            var quantity = document.forms[0]["quantity"].value;
+            var amtDueField = document.forms[0]["AmtDue"];
+            var priceList = {
+                'milk': 3.50,
+                'apple': 0.99,
+                'fish': 5.99
+            };
+            
+            product = product.toLowerCase().trim();
+            
+            if (product === "" || !(product in priceList)) {
+                alert("Please enter a valid product: Milk, Apple, or Fish.");
+                return false;
+            }
+            
+            if (quantity === "" || isNaN(quantity)) {
+                alert("Please enter a valid numeric quantity.");
+                return false;
+            }
+            
+            var cost = priceList[product] * parseFloat(quantity);
+            amtDueField.value = "$" + cost.toFixed(2);
+            return false;
+        }
+    </script>
+</head>
+<body>
+    <h3> Homework 3</h3>
+    <p id="desc">
+        The form given below has 3 fields. Let us assume that the user will type in the name of one of 3 products: Milk, Apple, or Fish. The user may enter these using any mix of cases, so be aware. You need to check to ensure that the user enters a value. If it is not one of these 3, let the user know. 
+        Then the user will enter a quantity. You need to check to ensure that a quantity is entered (you may assume that 0 is a valid quality) and that the value is numeric. Once validated, use the following costs - 1 bottle of milk is $3.50; one apple is $0.99 and one pound of fish is $5.99 - and show the amount owed in the third field. All of this should be done when the appropriate button is pressed. The amount must be shown with 2 decimal places and prefixed with a $ (dollar) sign.
+    </p>
+    <form action="" method="POST" onsubmit="return validateForm()">
+        <p><input type="text" name="product" size="20" placeholder="Enter product..."/>&nbsp; &nbsp;&nbsp;<input type="text" name="quantity" size="20" placeholder="Enter quantity.."/></p>
+        <p><input type="text" name="AmtDue" size="20" placeholder="show amount due"/></p>
+        <p><input class="but" type="submit" name="submit" value="What Do I Owe"/>&nbsp; &nbsp;&nbsp;<input class="but" type="reset" name="reset" value="Clear All"/></p>
+    </form>
+	<p>
+		I started by prompting coPilot with this: I have an assignment that requires me to use you to generate code.
+	</p>
+	<p> Then, I copied all of the code in this HTML document, including the instructions in the paragraph above the form, and pasted it into my next prompt which resulted in coPilot generating code that worked. </p>
+	<h5>Here are the main differences between this code and my code:</h5>
+	<p>
+		In the new code, elements are accessed using document.forms[] instead of document.getElementById(). Additionally, in the coPilot code, a JavaScript object priceList is used to store the prices of milk, apple, and fish.
+		The coPilot code uses document.forms[0]["product"].value and document.forms[0]["quantity"].value to access the values of the product and quantity fields.
+My code used document.getElementById("product").value and document.getElementById("quantity").value to get the field values. In the coPilot code, the quantity is converted to a number using parseFloat(quantity) for calculations.
+In my code, Number(quantityInput) was used for conversion. These are the main differences I have noticed.
+	</p>
+</body>
+</html>
