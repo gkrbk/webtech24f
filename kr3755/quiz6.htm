@@ -30,12 +30,13 @@
 			div.style.top = toppos + "px";
 			div.style.left = leftpos + "px";
 			toppos = toppos - 10;
-			if (leftpos > 800) {
-				leftpos = 200;
-			}
 			if (toppos < 100) {
 				toppos = 400;
-				leftpos += 100;
+				if (leftpos < 800) {
+					leftpos += 100;
+				} else {
+					leftpos = 200;
+				}
 			}
 
 
