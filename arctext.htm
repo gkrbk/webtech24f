@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arc Text and Animated Typing</title>
+
+    <style>
+        h1#a {
+            font-family: Arial;
+            font-size: x-large;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h2#b {
+            font-family: Lucida Handwriting;
+            color: navy;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+
+
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery.arctext.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            $("h1#a").click (function() {
+                $(this).arctext({radius:200, dir:1});
+                $("h2#b").arctext({radius:400, dir:-1});
+            });
+
+        });
+
+    </script>
+
+</head>
+<body>
+
+    <h1 id="a">This is a really cool function</h1>
+    <h2 id="b">This is another way to do the same thing</h2>
+    <p>Thank you for the fantastic semester!!</p>
+    
+</body>
+</html>

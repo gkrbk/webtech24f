@@ -1,0 +1,88 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+
+	    <meta http-equiv="content-type" content="text/html; charset=UTF-8"> 
+        <title>Making a Calculator</title>
+        <style type="text/css">
+            form {background-color:silver; color:Navy; font-family:Arial;
+            padding:50px 100px 50px 200px; width:50%;margin:auto;}
+            h1 {text-align:center; font-family: Lucida Handwriting; color:Green;}
+            .a {height:30px;}
+        </style>
+
+        <script type="text/javascript">
+             
+             function doMath(george)
+            {
+                event.preventDefault();
+                var myf, mynum1, mynum2;
+                myf = document.getElementById("f");
+                mynum1 = myf.num1.value;
+                mynum2 = myf.num2.value;
+               if ( (mynum1 == "") || (mynum2 == "") )
+               { 
+                alert ("Please enter values in both fields");
+               }
+               else if ( (isNaN(mynum1) == true) || (isNaN(mynum2) == true) )
+               {
+                alert ("Please enter numerical values only")
+               }
+             
+             else
+             {
+                mynum1 = parseFloat(mynum1);
+                mynum2 = parseFloat(mynum2);
+
+            if (george == "a")
+                myf.res.value = mynum1 + mynum2;
+            else if (george == "s")
+            myf.res.value = mynum1 - mynum2;
+            else if (george == "m")
+            myf.res.value = mynum1 * mynum2;
+            else
+            myf.res.value = mynum1 / mynum2;
+               /*my.res.value = parseFloat (myf.num1.value) + parseFloat (myf.num2.value)
+               
+               */ 
+                } 
+            }
+        
+        </script>
+        
+    </head>
+
+    <body>
+	    <!-- Your HTML goes here -->
+        <h1>Simple Calculator</h1>
+        <form id="f" method="POST" action="">
+            <p>
+                <input class="a" type="text" name="num1" placeholder="Enter.." size="7"/>
+                &nbsp;&nbsp;&nbsp;
+                <input class="a" type="text" name="num2" placeholder="Enter.." size="7"/>
+            </p>
+            <p>
+                Result: &nbsp; <input class="a" type="text" name="res" placeholder="Show.." size="10"/>
+            </p>
+            <p>
+                Select the background color for the form:&nbsp;
+                <select name="bgcol">
+                    <option value="null">No Color Chosen</option>
+                    <option value="blue">Blue Color</option>
+                    <option value="yellow">Yellow Color</option>
+                    <option value="magenta">Magenta Color</option>
+                </select>
+            </p>
+            <p>
+                <button id="a" onclick="doMath(this.id)" class="a">Add</button> &nbsp;&nbsp; 
+                <button id="s" onclick="doMath(this.id)" class="a">Subtract</button>&nbsp;&nbsp; 
+                <button id="m" onclick="doMath(this.id)" class="a">Multiply</button>&nbsp;&nbsp; 
+                <button id="d" onclick="doMath(this.id)" class="a">Divide</button>
+            </p>
+            
+            
+        </form>
+   
+    
+    </body>
+</html>
