@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Get in touch with us through our contact page. Send us your messages, questions, or subscribe to LeBron James fan updates.">
+    <meta name="keywords" content="Contact, LeBron James, Fan Message, Basketball News, LeBron Updates">
+    <meta name="author" content="George Kang-Rosenthal">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function showMe() {
+            var name = document.getElementById("name").value;
+            var email = document.getElementById("email").value;
+            var message = document.getElementById("message").value;
+    
+            if (name == "" || email == "" || message == "") {
+                alert("Please fill out all required fields: Name, Email, and Message.");
+                event.preventDefault();
+            } else {
+                alert("Form is valid and ready to submit!");
+            }
+        }
+
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.htm">Home</a></li>
+                <li><a href="about.htm">About LeBron</a>
+                    <ul class="dropdown2">
+                        <li><a href="rarefacts.htm">Rare Facts</a></li>
+                    </ul>
+                </li>
+                <li><a href="highlights.htm">Highlights</a></li>
+                <li><a href="statistics.htm">Statistics</a></li>
+                <li><a href="history_of_basketball.htm">History of Basketball</a>
+                    <ul class="dropdown">
+                        <li><a href="history_of_aba.htm">History of the ABA</a></li>
+                    </ul>
+                </li>
+                <li><a href="nba_legends_opinions.htm">NBA Legends' Opinions</a></li>
+                <li><a href="about_me.htm">About Me</a></li>
+                <li><a href="contact_us.htm">Contact Us</a></li>
+                <li><a href="credits.htm">Credits</a></li>
+                <li><a href="sitemap.htm">Sitemap</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2 class="contact-header">Contact Me Below (this form uses javascript to validate if name, email, and message are filled in)</h2>
+        <form class="contact-form" method="post" action="">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+            <fieldset>
+                <legend>Subscribe to LeBron Newsletters:</legend>
+                <input type="checkbox" id="news" name="subscribe" value="news">
+                <label for="news"> Basketball News</label><br>
+                <input type="checkbox" id="updates" name="subscribe" value="updates">
+                <label for="updates"> Lebron James Updates</label>
+            </fieldset><br>
+
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason">
+                <option value="fan">Fan Message</option>
+                <option value="inquiry">General Inquiry</option>
+                <option value="support">Support</option>
+            </select><br><br>
+
+            <input onclick="showMe()" type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 LeBron James Fanpage - George Kang-Rosenthal</p>
+    </footer>
+</body>
+</html>
