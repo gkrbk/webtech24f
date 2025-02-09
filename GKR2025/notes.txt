@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Top-Rated AC Maintenance Tampa FL | NextGen</title>
+    <link rel="icon" href="images/forgenie-hvac-favicon.png" type="image/gif" sizes="16x16">
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" >
+    <meta content="Looking for Expert AC Maintenance in Tampa, FL? NextGen Heating & Cooling is Tampa's trusted provider for on-time, thorough, and reliable service." name="description" >
+    <meta content="" name="keywords" >
+    <meta content="NextGen Heating & Cooling" name="author" >
+    <!-- CSS Files
+    ================================================== -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" id="bootstrap">
+    <link href="css/plugins.css" rel="stylesheet" type="text/css" >
+    <link href="css/swiper.css" rel="stylesheet" type="text/css" >
+    <link href="css/style.css" rel="stylesheet" type="text/css" >
+    <link href="css/coloring.css" rel="stylesheet" type="text/css" >
+    <!-- color scheme -->
+    <link id="colors" href="css/colors/scheme-01.css" rel="stylesheet" type="text/css" >
+
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="float-text show-on-scroll">
+            <span><a href="#">Scroll to top</a></span>
+        </div>
+        <div class="scrollbar-v show-on-scroll"></div>
+        
+        <!-- page preloader begin -->
+        <div id="de-loader"></div>
+        <!-- page preloader close -->
+
+        <!-- header begin -->
+        <header class="header-light transparent scroll-light has-topbar" style="background-color: silver; border-bottom: 1.5px solid black;"> 
+            <div id="topbar" style="border-bottom: 0px solid black;">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="d-flex justify-content-between xs-hide">
+                                <div class="header-widget d-flex">
+                                    <div class="topbar-widget"><a href="#"><i class="icofont-phone"></i>+1 (727) 919-0886</a></div>
+                                    <div class="topbar-widget"><a href="#"><i class="icofont-envelope"></i>Contact@nextgenofhvac.com</a></div>
+                                    <div class="topbar-widget"><a href="#"><i class="icofont-wall-clock"></i>Mon - Sun &nbsp;9:00am - 5:00pm</a></div>
+                                </div>
+
+                                <div class="social-icons">
+                                    <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook fa-lg"></i></a>
+                                    <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="container nextgen-header">
+                <div class="row" style="padding-top: 1px; background-color: silver;">
+                    <div class="col-md-12" style="background-color: silver">
+                        <div class="de-flex sm-pt10 nextgen-header2" style="background-color: silver;">
+                            <div class="de-flex-col">
+                                <!-- logo begin -->
+                                <div id="logo">
+                                    <a href="index.html">
+                                        <img class="logo-main" src="images/NEXTGEN Main Logo.png" alt="Forgenie HVAC Company in Brooklyn NY Logo" width="190">
+                                        <img class="logo-scroll" src="images/NEXTGEN Main Logo.png" alt="Forgenie HVAC Company in Brooklyn NY Logo" width="190">
+                                        <img class="logo-mobile" src="images/NEXTGEN Main Logo.png" alt="Forgenie HVAC Company in Brooklyn NY Logo" width="190">
+                                    </a>
+                                </div>
+                                <!-- logo close -->
+                            </div>
+                            <div class="de-flex-col header-col-mid">
+                                <ul id="mainmenu">
+                                    <li><a class="menu-item" href="index.html">Home</a></li>
+                                    <li><a class="menu-item" href="#">Services</a>
+                                        <ul>
+                                            <li><a class="menu-item" href="installation.html">Installation</a></li>
+                                            <li><a class="menu-item" href="installation.html">Ductwork</a></li>
+                                            <li><a class="menu-item" href="installation.html">Ventilation</a></li>
+                                            <li><a class="menu-item" href="repair.html">Repair</a></li>
+                                            <li><a class="menu-item" href="maintenance.html">Maintenance</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="#">Products</a>
+                                        <ul>
+                                            <li><a class="menu-item" href="installation.html">Heat Pumps</a></li>
+                                            <li><a class="menu-item" href="installation.html">Central Air Conditioners</a></li>
+                                            <li><a class="menu-item" href="installation.html">Ductless Mini Splits</a></li>
+                                            <li><a class="menu-item" href="installation.html">Package Units</a></li>
+                                            <li><a class="menu-item" href="installation.html">Thermostats</a></li>
+                                            <li><a class="menu-item" href="installation.html">Indoor Air Quality - UV Lights</a></li>
+                                            <li><a class="menu-item" href="installation.html">Leaf Guards</a></li>
+                                            <li><a class="menu-item" href="installation.html">Corrosion Grenades</a></li>
+                                            <li><a class="menu-item" href="installation.html">Surge Protection Devices</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a class="menu-item" href="about-us.html">About Us</a></li>
+                                    <li id="proj-item"><a class="menu-item" href="projects.html">Projects</a></li>
+                                    <li><a class="menu-item" href="contact-us.html">Contact</a></li>
+                                </ul>
+                            </div>
+                            <div class="de-flex-col">
+                                <div class="menu_side_area">          
+                                    <a href="contact-us.html" class="btn-main bg-color-2 free-quote-button">Get A Free Quote</a>
+                                    <span id="menu-btn"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- header close -->
+        <!-- content begin -->
+        <div class="no-bottom no-top" id="content" style="margin-top: 40px !important;">
+            <div id="top"></div>
+            <!-- section begin -->
+            <section id="subheader" class="jarallax text-light">
+                <img src="images/background/hvac-technician-checking-ac-system-outdoors.webp" class="jarallax-img new-img-css" alt="HVAC technician wearing a hard hat and holding a laptop while inspecting an outdoor AC system with gauges and tools">
+                <div class="container relative z-index-1000">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6">
+                            <div class="subtitle s2 bg-color text-light wow fadeInUp mb-2">Our Services</div>
+                            <h1>Top-Rated HVAC Maintenance</h1>
+                            <ul class="crumb">
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active">Maintenance</li>
+                            </ul>
+                        </div>
+                        <div class="col-lg-6 text-lg-end">
+                            <div class="fs-20 fw-600 no-bottom sm-hide">Air Conditioning and Heating Specialists</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="de-overlay"></div>
+            </section>
+            <!-- section close -->
+
+            <div class="bg-color relative z-index-1000 mt-40 mb40">
+                <a href="contact-us.html">
+                    <img src="images/svg/phone-calling-svgrepo-com.svg" class="border-white-6 fs-30 bg-color w-80px p-3 mb20 circle absolute abs-center sm-hide" alt="Ringing Phone Icon">
+                </a>
+            </div>
+
+            <section>
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-lg-3">
+                            <a href="installation.html" class="bg-color-3 d-block p-3 px-4 rounded-10px mb-3"><h4 class="mb-0">Installation</h4></a>
+                            <a href="repair.html" class="bg-color-3 d-block p-3 px-4 rounded-10px mb-3"><h4 class="mb-0">Repair</h4></a>
+                            <a href="maintenance.html" class="bg-color-2 text-light d-block p-3 px-4 rounded-10px mb-3 relative"><h4 class="mb-0">Maintenance</h4><i class="icofont-long-arrow-right absolute abs-middle fs-24 end-20px"></i></a>
+                        </div>
+
+                        <div class="col-lg-9">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <h2>Proactive HVAC Maintenance for Lasting <span class="id-color-2">Comfort</span> and <span class="id-color-2">Efficiency.</span></h2>
+                                    <p>At Forgenie HVAC, we’re dedicated to keeping your system running smoothly year-round with our comprehensive maintenance services. Our certified HVAC technicians bring extensive knowledge and commitment to every maintenance visit, ensuring your system operates safely, efficiently, and in line with industry standards.</p>
+                                    <p>During each maintenance check, we conduct a thorough inspection to identify any potential issues before they become costly problems. We clean, tune, and optimize your system, tailoring our approach to the specific needs of your home or commercial space. With Forgenie HVAC, you can trust that we’re working to maximize the lifespan and efficiency of your equipment, providing comfort and reliability you can depend on.<p> 
+                                    <p>Your satisfaction and peace of mind are our priorities. We keep you informed throughout the maintenance process, so you understand the steps we’re taking to keep your system in top condition. Our commitment extends beyond the maintenance visit, with expert advice on daily system care to ensure your HVAC runs efficiently and effectively between service appointments.</p>
+                                    <p>Ready to ensure reliable maintenance your HVAC system in Brooklyn NY? <strong><a href="contact-us.html">Contact us</a></strong> or call +1 (917) 266-7001 today for a free quote!</p>
+                                </div>
+
+                                <div class="col-lg-6">
+                                    <img src="images/projectsimages/project6/hvac-mini-split-installation-brooklyn-ny.jpg" class="img-fluid rounded-20px mb-4" alt="Technician installing a mini-split HVAC system outside a residential building in Brooklyn, NY.">
+                                    <img src="images/projectsimages/project2/hvac-rooftop-installation-brooklyn-ny.JPG" class="img-fluid rounded-20px" alt="Rooftop HVAC system installation with condenser units and electrical connections in Brooklyn, NY.">
+                                </div>
+                            </div>
+
+                            <div class="spacer-double"></div>
+
+                            <div class="row g-4">
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".0s">
+                                    <div>
+                                        <i class="bg-color text-light fs-48 p-2 absolute id-color icon_check rounded-10px"></i>
+                                        <div class="pl-80">
+                                            <h4>Expert Technicians</h4>
+                                            <p class="mb-0">Our expert team delivers reliable solutions, exceptional service, and peace of mind for your HVAC needs.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".2s">
+                                    <div>
+                                        <i class="bg-color-2 text-light fs-48 p-2 absolute id-color icon_check rounded-10px"></i>
+                                        <div class="pl-80">
+                                            <h4>Flexible Scheduling</h4>
+                                            <p class="mb-0">We offer flexible scheduling to suit your needs, making HVAC service easy and convenient.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".4s">
+                                    <div>
+                                        <i class="bg-color text-light fs-48 p-2 absolute id-color icon_check rounded-10px"></i>
+                                        <div class="pl-80">
+                                            <h4>Transparent Pricing</h4>
+                                            <p class="mb-0">We ensure transparent, upfront pricing so you always know what to expect with your HVAC service.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".6s">
+                                    <div>
+                                        <i class="bg-color-2 text-light fs-48 p-2 absolute id-color icon_check rounded-10px"></i>
+                                        <div class="pl-80">
+                                            <h4>Quality Parts</h4>
+                                            <p class="mb-0">We use only high-quality parts to guarantee lasting performance and reliability for your HVAC system.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay=".8s">
+                                    <div>
+                                        <i class="bg-color text-light fs-48 p-2 absolute id-color icon_check rounded-10px"></i>
+                                        <div class="pl-80">
+                                            <h4>Emergency Services</h4>
+                                            <p class="mb-0">We offer prompt emergency services to ensure your HVAC issues are handled quickly, whenever needed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="col-lg-6 wow fadeInUp" data-wow-delay="1s">
+                                    <div>
+                                        <i class="bg-color-2 text-light fs-48 p-2 absolute id-color icon_check rounded-10px"></i>
+                                        <div class="pl-80">
+                                            <h4>Satisfaction Guarantee</h4>
+                                            <p class="mb-0">We stand by our work with a satisfaction guarantee, ensuring your HVAC service meets the highest standards.</p>
+                                        </div>
+                                    </div>
+                                </div>
+        
+                                
+                            </div>
+
+                            <div class="spacer-double"></div>
+
+                            <div class="row g-4">
+                                <div class="col-lg-6 wow fadeInLeft">
+                                    <div class="padding50 sm-padding40 rounded-30 bg-color h-100 text-light">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="subtitle s2 wow fadeInUp mb-3">Testimonial</div>
+                                                <h3 class="mb20 wow fadeInUp" data-wow-delay=".2s">"My name is Effie and I'm the owner of Talia's Steakhouse. In the last month we were extremely struggling with the heat that we had in our dining and prep areas. We did research and realized that all companies are extremely busy and if available, it's like they're doing us a favor. Anyways, we found Forgenie HVAC and met the owner, Phil. We are extremely satisfied from the quality and the speed of his work. His staff member, Sipo, was very skillful in running the pipes in a professional way. Great communication, and helpful with explaining all the details. Everyone was very friendly and I felt they went the extra mile to give the best service. Highly recommend."</h3>
+                                                Effie N.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 wow fadeInLeft">
+                                    <div class="padding50 sm-padding40 rounded-30 bg-color h-100 text-light">
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <div class="subtitle s2 wow fadeInUp mb-3">Testimonial</div>
+                                                <h3 class="mb20 wow fadeInUp" data-wow-delay=".2s">"Installed a unit for me. Very professional, prompt, clean and answered any questions and concerns I had. I would recommend Forgenie HVAC to anyone"</h3>
+                                                Loletha C.
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="spacer-double"></div>
+
+                            <div class="row g-4">
+                                <div class="col-md-12 wow fadeInUp">
+                                    <div id="owl-logo-4" class="logo-carousel no-alpha owl-carousel owl-theme">
+                                        <img src="images/logo/carrier-ac-brand.webp" class="img-fluid px-4" alt="Carrier logo in a navy blue oval, representing a globally trusted brand in heating, ventilation, and air conditioning (HVAC) systems">
+                                        <img src="images/logo/trane-ac-brand.webp" class="img-fluid px-4" alt="Trane logo in bold orange, symbolizing high-quality air conditioning and heating solutions for residential and commercial HVAC systems">
+                                        <img src="images/logo/amana-ac-brand.webp" class="img-fluid px-4" alt="Amana logo in red and black, representing a reliable brand for heating and air conditioning systems, widely used in HVAC services across New York">
+                                        <img src="images/logo/daikin-ac-brand.webp" class="img-fluid px-4" alt="Daikin logo in light blue with a diagonal stripe, showcasing innovative air conditioning and HVAC solutions for modern homes and businesses">
+                                        <img src="images/logo/honeywell-ac-brand.webp" class="img-fluid px-4" alt="Honeywell logo in bold red font, a trusted provider of advanced heating and cooling system components for HVAC applications">
+                                        <img src="images/logo/lennox-ac-brand.webp" class="img-fluid px-4" alt="Lennox logo in a sleek red design, symbolizing premium heating, ventilation, and air conditioning products for energy-efficient comfort">
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-color text-light pt40 pb40">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-lg-9">
+                            <h3 class="mb-1"><i class="icofont-check-circled fs-32 me-3 id-color-2"></i>Quality heating, ventilation, &amp; air conditioning solutions</h3>
+                        </div>
+
+                        <div class="col-lg-3 text-lg-end text-start">
+                            <a class="btn-main bg-color-2" href="contact-us.html">Get A Free Quote</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-- content close -->
+        <!-- footer begin -->
+        <footer class="section-dark">
+            <div class="container">
+                <div class="row gx-5">
+                    <div class="col-lg-4 col-sm-6">
+                        <img src="images/NEXTGEN Main Logo.png" alt="Forgenie HVAC Company in Brooklyn NY Logo" width="240">
+                        <div class="spacer-20"></div>
+                        <p>We specialize in providing top-quality heating, ventilation, and air conditioning services tailored to your unique requirements. Our skilled technicians are dedicated to delivering reliable solutions that ensure your comfort and satisfaction.</p>
+
+                        <div class="social-icons mb-sm-30" style="margin-left: -12px">
+                            <a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-12 order-lg-1 order-sm-2">
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="widget">
+                                    <h5>Website Navigation:</h5>
+                                    <ul>                                        
+                                        <li><a href="index.html">Home</a></li>
+                                        <li><a href="installation.html">Our Services</a></li>
+                                        <li><a href="projects.html">Projects</a></li>
+                                        <li><a href="about-us.html">About Us</a></li>
+                                        <li><a href="contact-us.html">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-sm-6">
+                                <div class="widget">
+                                    <h5>Our Services</h5>
+                                    <ul>
+                                        <li><a href="repair.html">Repairs</a></li>
+                                        <li><a href="installation.html">Installation</a></li>
+                                        <li><a href="maintenance.html">Maintenace</a></li>
+                                        <li><a href="installation.html"><strong>View Our Products</strong></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 order-lg-2 order-sm-1">
+                        <div class="widget">
+                            <h5 class="id-color-2">Call Us Directly:</h5>
+                            <h4 class="jarallax mb0 wow fadeInUp newheader" style="font-weight: 600; line-height: 1.1em; letter-spacing: -1.25px; padding-bottom: 5px; margin-top: 0;" data-wow-delay=".2s"><i class="icofont-phone-circle id-color-2"></i>(727) 919-0886</h4>
+
+                            <div class="spacer-20"></div>
+
+                            <div class="fw-bold text-white"><i class="icofont-envelope me-2 id-color-2"></i>Send a Message</div>
+                            Contact@nextgenofhvac.com                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subfooter">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="de-flex">
+                                <div class="de-flex-col">
+                                    Copyright 2025 - Website Development & SEO by: &nbsp;<a href="https://gkrdevelopment.com" target="_blank"> GKRdevelopment</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- footer close -->
+    </div>
+    
+    <!-- Javascript Files
+    ================================================== -->
+    <script src="js/plugins.js"></script>
+    <script src="js/designesia.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js' async defer></script>
+    <script src="form.js"></script>
+    <script src="recaptcha.js"></script>
+   
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+.mainmenumaintext {
+  display: inline !important; /* Ensures the cursor only applies to text itself */
+  padding: 0; /* Removes extra clickable area */
+  margin-top: 20px;
+}
+
+
+
+.mainmenumaintext:hover {
+}
+
+
+
+
+
+
+
