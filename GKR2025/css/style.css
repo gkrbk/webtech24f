@@ -126,6 +126,7 @@ html {
   margin: 0;
   background: var(--bg-dark-1);
   background-color: silver !important;
+  overscroll-behavior: none;
 }
 
 body {
