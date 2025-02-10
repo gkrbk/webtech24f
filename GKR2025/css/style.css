@@ -191,7 +191,7 @@ body .owl-stage .owl-item {
   position: relative;
   overflow: hidden;
   min-height: 100vh;
-  background-color: silver;
+  background-color: var(--title-font-color);
 }
 
 .de-navbar-left #wrapper {
