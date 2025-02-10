@@ -127,7 +127,7 @@ html {
   background: var(--bg-dark-1);
   background-color: silver !important;  /* next line: 
   overscroll-behavior: none;*/
-  height: 100%;
+  min-height: 100vh;
 }
 
 body {
@@ -139,7 +139,7 @@ body {
   line-height: 29px;
   word-spacing: 0px;
   background-color: silver !important;
-  height: 100%;
+  min-height: 100vh;
 }
 
 body::before {
@@ -151,6 +151,18 @@ body::before {
   height: 100vh;
   background-color: silver;
   z-index: -1;
+}
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: silver;
+  z-index: -1;
+  pointer-events: none;
 }
 
 .dark-scheme {
