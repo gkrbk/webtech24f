@@ -127,6 +127,7 @@ html {
   background: var(--bg-dark-1);
   background-color: silver !important;  /* next line: 
   overscroll-behavior: none;*/
+  overscroll-behavior: contain;
   min-height: 100vh;
 }
 
@@ -140,6 +141,7 @@ body {
   word-spacing: 0px;
   background-color: silver !important;
   min-height: 100vh;
+  overflow-y: auto; /* Allows scrolling */
 }
 
 body::before {
@@ -163,6 +165,7 @@ body::after {
   background-color: silver;
   z-index: -1;
   pointer-events: none;
+  bottom: -50px; /* Extends past the bottom to ensure silver background */
 }
 
 .dark-scheme {
