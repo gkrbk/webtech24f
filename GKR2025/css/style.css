@@ -127,6 +127,7 @@ html {
   background: var(--bg-dark-1);
   background-color: silver !important;
   overscroll-behavior: none;
+  height: 100%;
 }
 
 body {
@@ -138,6 +139,18 @@ body {
   line-height: 29px;
   word-spacing: 0px;
   background-color: silver !important;
+  height: 100%;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: silver;
+  z-index: -1;
 }
 
 .dark-scheme {
@@ -162,6 +175,8 @@ body .owl-stage .owl-item {
 #wrapper {
   position: relative;
   overflow: hidden;
+  min-height: 100vh;
+  background-color: silver;
 }
 
 .de-navbar-left #wrapper {
