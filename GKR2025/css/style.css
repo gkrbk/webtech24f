@@ -137,6 +137,7 @@ body {
   padding: 0;
   line-height: 29px;
   word-spacing: 0px;
+  background-color: silver !important;
 }
 
 .dark-scheme {
