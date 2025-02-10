@@ -125,8 +125,8 @@ html {
   padding: 0;
   margin: 0;
   background: var(--bg-dark-1);
-  background-color: silver !important;
-  overscroll-behavior: none;
+  background-color: silver !important;  /* next line: 
+  overscroll-behavior: none;*/
   height: 100%;
 }
 
