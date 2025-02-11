@@ -2,7 +2,7 @@
 
 
 /* CoolAir
-/* created by designesia - delivered by GKRdevelopment
+/* created by designesia - CUSTOM DEVELOPED for NEXTGEN HEATING & COOLING AND delivered by GKRdevelopment
 
 @charset "utf-8";
 
@@ -68,6 +68,12 @@ Table of content:
 @import url("../fonts/et-line-font/style.css");
 @import url("../fonts/icofont/icofont.min.css");
 
+:root {
+  --bg-color-gkr: rgb(8, 8, 8);
+  --bg-color-gkr-2: rgb(56, 56, 56);
+  --border-gkr: 1.5px solid rgb(209, 97, 10);
+}
+
 * {
   --title-font: "Manrope", Helvetica, Arial, sans-serif;
   --body-font-size: 16px;
@@ -87,6 +93,34 @@ Table of content:
   --swiper-theme-color: var(--secondary-color);
   --rounded-1: 12px;
 }
+
+.bg-color-gkr {
+  background-color: var(--bg-color-gkr);
+  border: var(--border-gkr);
+  box-shadow: 0px 0px 3px 1px rgba(209, 97, 10, 0.5);
+}
+
+.bg-color-text {
+  color: rgb(230, 230, 230) !important;
+}
+
+.bg-color-gkr-2 {
+  background-color: var(--bg-color-gkr-2);
+  border: var(--border-gkr);
+  box-shadow: 0px 0px 3px 1px rgba(209, 97, 10, 0.5);
+}
+
+.alt-bg-color-btn {
+  background-color: silver !important;
+  color: black !important;  /*
+  border: 1.5px solid black !important; */
+}
+
+.bg-color-gkr-service {
+  background-color: var(--bg-color-gkr);
+  border: var(--border-gkr);
+}
+
 
 .bg-dark-1{background-color: var(--bg-dark-1) !important}
 .bg-dark-2{background-color: var(--bg-dark-2) !important}
@@ -110,6 +144,11 @@ Table of content:
 
 .g-custom-x {
   --bs-gutter-x: 30px;
+}
+
+.blahblah {
+  background-color: var(--bg-color-gkr);
+  color: silver !important;
 }
 
 /* ================================================== */
