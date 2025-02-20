@@ -20703,11 +20703,11 @@ BELOW HERE PASTED IN TXT FILE. */
 }
 
 .nextgen-header {
-  background-color: silver;
+  background-color: transparent !important;
 }
 
 .nextgen-header2 {
-  background-color: silver;
+  background-color: transparent !important;
 }
 
 @media (max-width: 600px) {
@@ -20725,6 +20725,9 @@ BELOW HERE PASTED IN TXT FILE. */
 #mainmenu .menu-item:hover {
   color: black !important; /* rgb(212, 92, 0) color: rgb(217, 95, 2) - the better one: rgb(214, 94, 2) - this one is prob the best: rgb(212, 92, 0) */
 }
+
+
+
 
 /*#mainmenu .menu-item:hover {
 color: rgb(212, 92, 0) !important;
@@ -20744,29 +20747,31 @@ color: rgb(212, 92, 0) !important;
 
 .free-quote-button {
   background-color: black !important;
-  border: 2px solid silver !important;
+  border: 1.5px solid silver !important;
   color: silver !important;
 }
 
 .free-quote-button:hover {
   color: white !important;  /*rgb(255, 115, 8)   */
-  border: 1px solid rgb(255, 115, 8) !important;    /* rgb(255, 115, 8)  */
+  border: 1.5px solid rgb(255, 115, 8) !important;    /* rgb(255, 115, 8)  */
 }
 
 #mainmenu li ul {
-  background-color: silver;
+  background-color: transparent;
 }
 
+/*
 #mainmenu li ul li {
   border-bottom: .5px solid darkgray;
 }
+*/
 
 #mainmenu li ul li:hover {
-  background-color: silver !important; /*rgb(0, 10, 26) */
+  background-color: transparent !important; /*rgb(0, 10, 26) */
 }
 
 #mainmenu li ul {
-  background-color: silver;
+  background-color: white;
   color: white;
 }
 

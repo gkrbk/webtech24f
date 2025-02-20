@@ -117,7 +117,7 @@
         <!-- page preloader close -->
 
         <!-- header begin -->
-        <header class="header-light transparent scroll-light has-topbar"> 
+        <header class="header-light transparent scroll-light has-topbar" style="background-color: silver; border-bottom: 1.5px solid black;"> 
             <div id="topbar" style="border-bottom: 0px solid black;">
                 <div class="container">
                     <div class="row">
@@ -139,9 +139,9 @@
                 </div>
             </div>
             <div class="container nextgen-header">
-                <div class="row" style="padding-top: 1px;">
-                    <div class="col-md-12">
-                        <div class="de-flex sm-pt10 nextgen-header2">
+                <div class="row" style="padding-top: 1px; background-color: silver;">
+                    <div class="col-md-12" style="background-color: silver">
+                        <div class="de-flex sm-pt10 nextgen-header2" style="background-color: silver;">
                             <div class="de-flex-col">
                                 <!-- logo begin -->
                                 <div id="logo">
@@ -431,7 +431,109 @@
                 </div>
             </section>
 
-            <!--review section would go here-->
+            <section class="text-center">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 offset-lg-2 text-center">
+                            <div class="subtitle wow fadeInUp mb-3">Testimonials</div>
+                            <h4 class="wow fadeInUp newheader" style="font-weight: 600; margin-bottom: 20px; line-height: 1.1em; letter-spacing: -1.25px; padding-bottom: 5px; margin-top: 0;" data-wow-delay=".2s">What Our Customers Are Saying:</h4>
+                            <p class="lead wow fadeInUp">Our customers trust us for exceptional service, reliable solutions, and lasting comfort. Here's what they say about their experience with us:</p>
+                            <div class="spacer-single"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row" id="testimonials-div">
+                        <div class="owl-3-dots owl-carousel owl-theme wow fadeInUp">
+                            <div class="item">
+                                <div class="de_testi s2">
+                                    <blockquote>
+                                        <i class="icofont-quote-left absolute start-30px top-30px id-color-2"></i>
+                                        <div class="de_testi_by">
+                                            <div>Zachary C.<span>Customer</span></div>
+                                        </div>
+                                        <p>"John is a magician. After going through a number of service people to help fix our AC units, with no luck, John was thoughtful and helped map out the system to identify the problem. He truly saved the day.
+
+                                            He is always really responsive and I have recommended him to a number of friends. The last time he was at my apartment he event fixed the refrigerator while he was there.
+                                            
+                                            Really sweet and trust worthy guy, who does fantastic work."
+                                        </p>
+                                        <div class="de-rating-ext">
+                                            <span class="d-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="de_testi s2">
+                                    <blockquote>
+                                        <i class="icofont-quote-left absolute start-30px top-30px id-color-2"></i>
+                                        <div class="de_testi_by">
+                                            <div>Scott R.<span>Customer</span></div>
+                                        </div>
+                                        <p>"John was outstanding in identifying and correcting an air condition issue I was struggling with for over 2 months. In addition, his attitude was great. I was 30 minutes late, and he waited with no issue. It took 2 hrs to identify the issue, which John did (cause was me) and then addressed it in less than 5 minutes. Professional, highly competent, and a gentleman."</p>
+                                        <div class="de-rating-ext">
+                                            <span class="d-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="de_testi s2">
+                                    <blockquote>
+                                        <i class="icofont-quote-left absolute start-30px top-30px id-color-2"></i>
+                                        <div class="de_testi_by">
+                                            <div>Laura P.<span>Customer</span></div>
+                                        </div>
+                                        <p>"My family had a wonderful experience working with John. He helped my mom who is elderly replace an AC unit that had problems from the start and was less than 2 years old. My mom needed the AC due to health problems.  John understood the urgency and quickly came to assess the problem. He quickly emailed Friedrich and made follow-up calls to them. In the end my mother had a new replacement unit delivered and installed within days! We are super appreciative of John's help in this matter. He is a true professional and I would recommend him highly! Thank you John!"</p>
+                                        <div class="de-rating-ext">
+                                            <span class="d-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="de_testi s2">
+                                    <blockquote>
+                                        <i class="icofont-quote-left absolute start-30px top-30px id-color-2"></i>
+                                        <div class="de_testi_by">
+                                            <div>Michelle O.<span>Customer</span></div>
+                                        </div>
+                                        <p>"John from Advance AC was very professional and very fast to respond to my text and calls. He was kind enough to explain everything he was doing to get our 3 units up and running again and answered all of our questions. Our units are running now !!  We are very satisfied and recommend Advance AC . Great service !"</p>
+                                        <div class="de-rating-ext">
+                                            <span class="d-stars">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </blockquote>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="bg-color-3" id="faq-section">
                 <div class="container" id="faq-div">
