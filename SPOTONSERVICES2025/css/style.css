@@ -20594,5 +20594,17 @@ img {
     padding: 50px 4em 0 0;
   }
 
-  .container-timeline ul li::before {
-    left: 0
+}
+
+@media (max-width: 700px) {
+  .new-img-css2 {
+    object-fit: cover !important;       /* Makes sure the image covers the container */
+    object-position: 58% !important;    /* Aligns the image to show its upper part */
+  }
+}
+
+@media (max-width: 900px) {
+  #main-content {
+    margin-top: 20px;
+  }
+}
