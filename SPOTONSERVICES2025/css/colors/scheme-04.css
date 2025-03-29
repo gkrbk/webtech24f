@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #135f25;
+    --primary-color-rgb: 34, 121, 130;
+    --secondary-color: #2aac3e;
+    --secondary-color-rgb: 103, 198, 213;
+    --tertiary-color: #f4fbfc;
+    --tertiary-color-rgb: 244, 251, 252;
+  }
+
+  #topbar {
+    background-color: black !important;
+  }
+
+  footer {
+    background-color: black !important;
+  }
+
+  #why-choose-us-section {
+    background-color: black !important;
+  }
+
+  .service-page-review {
+    background-color: black !important;
+  }
+
+/*
+  :root {
+    --primary-color: #227982;
+    --primary-color-rgb: 34, 121, 130;
+    --secondary-color: #67c6d5;
+    --secondary-color-rgb: 103, 198, 213;
+    --tertiary-color: #f4fbfc;
+    --tertiary-color-rgb: 244, 251, 252;
+  }
+*/
+
