@@ -641,7 +641,7 @@ header .header-col.mid .social-icons {
   }
 
   #subheader .de-overlay{
-    background: linear-gradient(45deg, rgba(var(--primary-color-rgb),1), rgba(var(--secondary-color-rgb),0));
+    background: linear-gradient(45deg, rgba(23, 199, 85, 0.3), rgba(var(--secondary-color-rgb),0));
   }
 
 .de-overlay-gradient{
@@ -20606,5 +20606,11 @@ img {
 @media (max-width: 900px) {
   #main-content {
     margin-top: 20px;
+  }
+}
+
+@media (max-width: 990px) {
+  .newheadercolor {
+    background-color: black !important;
   }
 }
