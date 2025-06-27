@@ -1,0 +1,118 @@
+**Business Name:** Allegiant Mechanical Contracting INC.
+
+**Contact Information:**
+*   **Phone Number:** +1 (917) 945-4635 (Clickable: tel:+19179454635)
+*   **Email Address:** Allegiantmechanical@gmail.com
+*   **Footer Phone Number (Non +1):** (917) 945-4635
+
+**Location & Address:**
+*   **Service Location:** Brooklyn, NY (also referred to as Brooklyn, New York)
+*   **Business Address:** 100 Lama Ct, Brooklyn, NY 11223
+
+**Business Details:**
+*   **Business Owner Name:** Dave
+*   **Business Hours:** Mon - Thurs 8:00am - 5:00pm, Fri: 8:00am - 3:00pm
+*   **Years of Experience:** Over 22 years (also mentioned as "over twenty-two years", "decades of expertise")
+*   **Logo Image Filename:** allegiantlogo2.png
+    *   Header Width: 200
+    *   Footer Width: 240
+    *   Alt Text: "Allegiant Mechanical Contracting INC. Company in Brooklyn NY Logo" or "Allegiant Mechanical Contracting INC. logo"
+
+**Services Offered:**
+*   **General:** HVAC (Heating, Ventilation, and Air Conditioning) services - installation, repair, maintenance, upgrades. Described as "premium HVAC solutions", "custom heating, ventilation, and air conditioning services tailored to meet unique needs". Handles "everything imaginable in the HVAC industry".
+*   **Specific Systems:**
+    *   Air Conditioning (AC): Top-rated service, repairs, installations, ductless mini-splits.
+    *   Heating: Top-rated service, repairs, installations, furnace replacements, boiler installations (steam boilers, forced hot water boilers, tankless and tankless combi boilers).
+    *   Ventilation.
+    *   Ductwork: Reworking existing systems, installing new ducting (new construction and existing buildings).
+    *   Fire Suppression Systems: Commercial kitchen ventilation paired with Ansul fire suppression units.
+*   **Customer Types:** Residential and Commercial.
+
+**Key Selling Points & Claims:**
+*   **Reputation:** Top-Rated HVAC Service/Contractor in Brooklyn, NY. #1 choice for homes and businesses in Brooklyn. 5/5-star rating from satisfied customers.
+*   **Expertise:** Certified professionals, expert technicians, advanced diagnostic tools, deep understanding of client requirements.
+*   **Service Quality:** Premium and friendly solutions, dedicated to excellence, reliable solutions, exceptional service, utmost satisfaction, high-end comfort, precision, reliability, unmatched craftsmanship. Fast, reliable service. Prompt emergency services.
+*   **Customer Approach:** Transparent pricing (no hidden fees), free quotes, flexible scheduling, honest recommendations, thorough consultation, clear communication, customer satisfaction is a top priority. Provides comprehensive walkthroughs and education on system operation and maintenance.
+*   **Values:** Commitment to quality, safety, efficiency, professionalism. Uses high-quality parts. Satisfaction guarantee.
+*   **Experience:** Over 22 years of industry experience.
+*   **Special Mentions:** Handles tight urban layouts and strict compliance requirements in Brooklyn, NY.
+
+**Specific Service Details from Pages:**
+*   **Installation:** Reliable installations, exceptional service. Handles mini-splits, split systems, heat pumps, steam boilers, forced hot water boilers, tankless and tankless combi boilers, ductwork.
+*   **Repair:** Experienced technicians diagnose and repair a wide range of HVAC issues (refrigerant leaks, electrical problems, strange noises, weak airflow, frequent cycling). Uses advanced diagnostic tools. Fast, reliable service with transparent pricing.
+    *   Signs system needs repair: Warm air from vents, strange noises, weak airflow, high energy bills, inconsistent cooling, frequent cycling, water leaks, burning smell, unit age >10 years, thermostat issues.
+*   **Maintenance:** Proactive maintenance for lasting comfort and efficiency. Prevents unexpected breakdowns, increased energy costs, compromised indoor air quality.
+    *   Includes: Thorough electrical checks, meticulous cleaning (wires, drain lines, coils), exterior condenser inspection (remove debris), ductwork assessment (leaks), refrigerant level check.
+    *   Benefits: Improves energy efficiency, consistent comfort, reduce utility bills, better air quality, peace of mind.
+    *   Frequency: Recommended at least once a year (spring for cooling, fall for heating).
+    *   Duration: 1-2 hours typically.
+    *   Offers maintenance plans.
+
+**Project Examples:**
+*   **Project 1 (Commercial):** Commercial HVAC Ventilation & Fire Suppression Installation in Brooklyn, NY (2024).
+    *   Specifics: Commercial HVAC Installation, Ventilation, Fire Suppression, Ductwork, Hood Installation, Exhaust Mechanisms.
+    *   Details: Installation of a comprehensive commercial kitchen ventilation system with an Ansul fire suppression unit. High-efficiency stainless steel exhaust hood, precision-installed and insulated ductwork. Ansul system strategically placed for maximum coverage. Provided comprehensive walkthrough and maintenance tips.
+*   **Project 2 (Residential):** Residential HVAC Installation & Furnace Upgrade in Brooklyn, NY (2024).
+    *   Specifics: Residential HVAC System, Outdoor Condenser Unit, Furnace Upgrade Installation, Insulation & Air Flow.
+    *   Details: Installed a new high-efficiency outdoor condenser unit and upgraded the existing furnace system in the attic with a modern, energy-efficient model. Inspected and adjusted attic insulation. Prioritized safety and quality, tested connections, and provided operational demonstration.
+
+**Website Meta Information (General Themes):**
+*   Titles emphasize "Top-Rated HVAC Service/Contractor/Maintenance/Repair/Installation" in "Brooklyn, NY" by "Allegiant Mechanical Contracting INC."
+*   Descriptions highlight experience (22+ years), being Brooklyn's go-to HVAC company, offering expert services, and free quotes.
+*   Author: GKR Development
+*   Favicon: images/forgenie-hvac-favicon.png
+
+**Calls to Action (Common Phrases):**
+*   "Get A Free Quote"
+*   "Call us today" / "Call Today!"
+*   "Contact us"
+*   "Schedule Now" / "Schedule your consultation"
+*   "Learn More"
+*   "View Our Reviews"
+*   "View Our Latest Projects"
+
+**Taglines/Subtitles found:**
+*   "Air Conditioning and Heating Specialists"
+*   "Welcome to Allegiant Mechanical Contracting INC."
+*   "Dedicated to excellence, we provide premium and friendly heating and cooling solutions..."
+*   "Quality heating, ventilation, & air conditioning solutions"
+*   "Your comfort is our promise."
+
+**Social Media:**
+*   Facebook: `https://www.facebook.com` (though links might be generic placeholders)
+*   Instagram: `https://www.instagram.com` (though links might be generic placeholders)
+
+**FAQs Themes (from index.html & service pages):**
+*   **Pricing:** Competitive, excellent value, transparent, no hidden fees.
+*   **Process with New Customers:** Thorough consultation, honest recommendations, only necessary updates.
+*   **Customer Types:** Residential and commercial.
+*   **Advice for Choosing Provider:** Ask questions, expect clear walkthrough.
+*   **Getting a Quote:** Call or use contact page, 100% free, transparent pricing.
+*   **Questions to Ask Provider:** No stupid questions, good provider appreciates questions.
+*   **Maintenance Frequency:** At least once a year (spring for cooling, fall for heating).
+*   **Maintenance Inclusions:** Comprehensive inspection, cleaning, tune-up (coils, refrigerant, electrical, lubrication, performance testing).
+*   **Repair Response Time:** Same-day/next-day when possible.
+*   **Brands Repaired:** All major brands and types.
+*   **Repair Estimates:** Clear, upfront estimate before work.
+*   **Repair Guarantee:** Satisfaction guarantee, parts and labor warranty.
+*   **Installation Warranty:** Comprehensive warranties, support for long-term smooth running.
+*   **Installation Process:** Consultation, site assessment, system design, professional installation, testing, client education.
+*   **Choosing System Size:** Based on home size, insulation, windows, climate, usage.
+*   **Installation Duration:** Varies (few hours to several days).
+
+**SEO Content Section Themes (from index.html & about-us.html):**
+*   Emphasis on 22+ years servicing HVAC in Brooklyn, NY.
+*   Understanding urgency of broken heaters/AC.
+*   Fast, reliable solutions, clear communication, fair pricing.
+*   Importance of quick & professional HVAC service for comfort and safety.
+*   Expertise in furnace replacements, boiler installations, AC setups, ductless mini-splits.
+*   Prompt, dependable repair services, keeping clients informed.
+
+**Brands Worked With (from index.html logo carousel):**
+*   Carrier
+*   Trane
+*   Amana
+*   Daikin
+*   Honeywell
+*   Lennox
+*   Friedrich
