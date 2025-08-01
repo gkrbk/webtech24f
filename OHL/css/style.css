@@ -351,6 +351,10 @@ added media queries below:
     margin-top: 12px;
   }
 
+  #pace-program-section {
+    margin-top: 10px !important;
+    padding-bottom: 20px !important;
+  }
 
 }
 
