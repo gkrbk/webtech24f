@@ -392,7 +392,7 @@ added media queries below:
 }
 
 @media (max-width: 900px) {
-  header {
+  body:not(.homepage) header {
     background-color: black !important;
   }
 }
