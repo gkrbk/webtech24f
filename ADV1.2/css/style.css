@@ -216,6 +216,10 @@ added media queries below:
     margin-bottom: 8px;
   }
 
+  #service-page-testimonials-section {
+    margin-bottom: 8px;
+  }
+
   #seo-content-section-2 {
     padding-bottom: 110px;
   }
@@ -289,6 +293,33 @@ added media queries below:
     margin-top: -94px;
   }
 
+  #logo-carousel-service-page {
+    margin-top: 34px !important;
+  }
+
+  #expert-at-this-service {
+    margin-top: -8px;
+  }
+
+  #specific-service-experience-points {
+    margin-bottom: -30px;
+  }
+
+  #brands-we-service {
+    margin-top: -30px !important;
+    margin-bottom: -90px !important;
+  }
+
+  #logo-carousel-service-page {
+    margin-top: -60px !important;
+    margin-bottom: 60px;
+  }
+
+  #hyperlocal-content-section {
+    padding-top: 60px !important;
+    margin-top: 0px !important;
+  }
+
 
 }
 
@@ -320,7 +351,7 @@ added media queries below:
   }
 
   #some-brands-text {
-    margin-top: 42px;
+    margin-top: 52px;
   }
 
   #cta-section-3 {
@@ -333,6 +364,11 @@ added media queries below:
 
   #testimonials-section-2 {
     margin-bottom: -6px;
+  }
+
+  #service-page-testimonials-section {
+    margin-bottom: -6px;
+    margin-top: -10px;
   }
 
   #seo-content-section-2  {
@@ -426,7 +462,6 @@ added media queries below:
 
   #cta-section-4 {
     margin-top: -43px;
-    margin-bottom: -9px;
   }
 
   #expert-at-this-service {
@@ -435,6 +470,22 @@ added media queries below:
 
   #brands-we-service {
     padding-top: 50px;
+  }
+
+  #logo-carousel-service-page {
+    margin-bottom: 44px !important;
+    margin-top: 14px;
+  }
+
+  #hyperlocal-content-section  {
+    padding-top: 46px;
+    padding-bottom: 110px;
+    margin-bottom: -7px !important;
+    margin-top: 0px !important;
+  }
+
+  .images-duo {
+    margin-top: 8px;
   }
 
 }
@@ -462,6 +513,13 @@ added media queries below:
     margin-top: 14px !important;
   }
 
+}
+
+@media (min-width: 768px) and (max-width: 990px) {
+  #logo-carousel-service-page {
+    margin-top: 60px !important;
+    margin-bottom: 60px;
+  }
 }
 
 @media (max-width: 900px) {

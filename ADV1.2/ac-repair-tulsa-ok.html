@@ -284,7 +284,7 @@
                             <div class="relative z-index-1000">
                                 <div class="subtitle mb-2 wow fadeInUp eyebrow-text-service-page" style="background-color: rgba(185, 185, 185, 0.1); padding-top: 0px; margin-top: -12px; margin-bottom: 8px !important;" data-wow-delay=".1s">Having AC Trouble?</div>
                                 <h1 class="new-service-page-h1" style="font-size: 3.8em; letter-spacing: -1.8px; margin-bottom: 21px;">Top-Rated Air Conditioning Repair in Tulsa, OK</h1>
-                                <p class="first-paragraph" style="margin-bottom: 24px;">As your Tulsa neighbors, we know the Oklahoma heat is no joke. When your air conditioner quits, our team is right around the corner with the fast air conditioning repair and expert skill needed to restore your cool relief. Call Now for Immediate Service: <a style="color: white" href="tel:+19187289420">+1 (918) 728-9420</a></p>
+                                <p id="service-page-first-sentence" class="first-paragraph" style="margin-bottom: 24px;">As your Tulsa neighbors, we know the Oklahoma heat is no joke. When your air conditioner quits, our team is right around the corner with the fast air conditioning repair and expert skill needed to restore your cool relief. Call Now for Immediate Service: <a style="color: white" href="tel:+19187289420">+1 (918) 728-9420</a></p>
 
                                 
                                 <!-- START: RESPONSIVE HERO BLOCK -->
@@ -350,7 +350,7 @@
                                     </div>
 
                                     <!-- Call Us Block -->
-                                    <a href="tel:+19187289420" class="d-flex flex-column rounded-5 align-items-center justify-content-center p-2 bg-color-5 black-outline-2 text-light wow scaleIn" style="width: 110px; height: 110px; text-decoration: none; box-shadow: 0 0 15px rgba(240, 220, 107, 0.3);" data-wow-delay=".2s">
+                                    <a id="first-call-button" href="tel:+19187289420" class="d-flex flex-column rounded-5 align-items-center justify-content-center p-2 bg-color-5 black-outline-2 text-light wow scaleIn" style="width: 110px; height: 110px; text-decoration: none; box-shadow: 0 0 15px rgba(240, 220, 107, 0.3);" data-wow-delay=".2s">
                                         <img src="images/icons/white/call.webp" class="mb-2" style="width: 30px;" alt="Cell Phone Icon">
                                         <div class="text-center" style="line-height: 1.2;">
                                             <div style="font-size: 0.8rem; font-weight: 500;">Call Us Today</div>
@@ -377,7 +377,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-4 service-page-hero-quote-form" style="margin-left: 20px;">
+                        <div id="service-page-quote-form" class="col-lg-4 service-page-hero-quote-form" style="margin-left: 20px;">
                             <div class="p-4 overlay-white-6 bg-blur rounded-1 text-dark">
                                 <h4 class="mb-3">Request a No-Pressure Free Quote</h4>
                                 <input type="text" name="Name" id="name" class="form-control mb-3" placeholder="Name" required>
@@ -459,7 +459,7 @@
                     <div class="row g-4">
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".2s">
                             <a href="tel:+14053976654" class="d-block relative bg-dark-custom text-light p-2 rounded-10px">
-                                <i class="icon-color p-3 rounded-10px fs-56 icofont-phone-circle"></i>
+                                <i class="id-color-2 p-3 rounded-10px fs-56 icofont-phone-circle"></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Immediate Service</span> 
                                     <h4>Call +1 (405) 397-6654</h4><!--AI EDIT NUMBER-->
@@ -467,8 +467,8 @@
                             </a>
                         </div>                        
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="contact-cooper-heat-and-air-okc.html" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
-                                <i class="icon-color p-3 rounded-10px fs-56 icofont-calculator"></i> 
+                            <a href="#service-page-first-sentence" class="d-block relative bg-dark-custom text-white p-2 rounded-10px dynamic-quote-link">
+                                <i class="id-color-2 p-3 rounded-10px fs-56 icofont-calculator"></i> 
                                 <div class="absolute abs-middle ml90">
                                     <span>Request For</span>
                                     <h4>A Free Quote</h4>
@@ -476,11 +476,11 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="#testimonials-section-2" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
-                                <i class="icon-color p-3 rounded-10px fs-56 icofont-image"></i>
+                            <a href="#our-latest-reviews-cta-text" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
+                                <i class="id-color-2 p-3 rounded-10px fs-56 icofont-image"></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Read</span>
-                                    <h4>Our Latest Reviews</h4>
+                                    <h4 id="our-latest-reviews-cta-text">Our Latest Reviews</h4>
                                 </div>
                             </a>
                         </div>
@@ -488,7 +488,7 @@
                 </div>
             </section>
 
-            <section class="pb-5 section-dark text-light overflow-hidden jarallax" id="testimonials-section-2">
+            <section class="pb-5 section-dark text-light overflow-hidden jarallax" id="service-page-testimonials-section">
                 <img src="images/background/16.webp" class="jarallax-img" alt="">
                 <div class="container">
                     <div class="row g-4 justify-content-center">
@@ -633,7 +633,7 @@
                             <div class="spacer-single"></div>
                         </div>
                     </div>
-                    <div class="row g-4" id="why-us-reasons-sp">
+                    <div class="row g-4" id="specific-service-experience-points">
                         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".0s">
                             <div>
                                 <i class="bg-color text-light fs-48 p-2 absolute id-color icon_check rounded-10px"></i>
@@ -701,7 +701,7 @@
                 </div>
             </section>
 
-            <section id="logo-carousel-homepage" class="no-top" style="margin-top: 0px">
+            <section id="logo-carousel-service-page" class="no-top" style="margin-top: 0px">
                 <div class="container">
                     <div class="row g-4">
                         <div class="spacer-single sm-hide"></div>
@@ -711,6 +711,13 @@
 
                         <div class="col-md-12 wow fadeInUp">
                             <div id="owl-logo" class="logo-carousel no-alpha owl-carousel owl-theme">
+                                <img src="images/logo/fujitsu-hvac-logo - Copy.png" class="img-fluid px-4" alt="Fujitsu Air Conditioner Brand Logo">
+                                <img src="images/logo/rheem-hvac-logo - Copy.png" class="img-fluid px-4" alt="Rheem Air Conditioner Brand Logo">
+                                <img src="images/logo/ruud-hvac-logo - Copy.png" class="img-fluid px-4" alt="Ruud Air Conditioner Brand Logo">
+                                <img src="images/logo/mitsubishi.jpg" class="img-fluid px-4" alt="Mitsubishi Electric Air Conditioner Brand Logo">
+                                <img src="images/logo/peerless-boilers-logo.png" class="img-fluid px-4" alt="Peerless Boilers Brand Logo">
+                                <img src="images/logo/bradford-white.png" class="img-fluid px-4" alt="Bradford White Water Heaters HVAC Brand Logo">
+                                <img src="images/logo/granby-logo.png" class="img-fluid px-4" alt="Granby HVAC Brand Logo">
                                 <img src="images/logo/carrier-ac-brand.webp" class="img-fluid px-4" alt="Carrier logo in a navy blue oval, representing a globally trusted brand in heating, ventilation, and air conditioning (HVAC) systems">
                                 <img src="images/logo/bryantlogo2.png" class="img-fluid px-4" alt="Carrier logo in a navy blue oval, representing a globally trusted brand in heating, ventilation, and air conditioning (HVAC) systems">
                                 <img src="images/logo/trane-ac-brand.webp" class="img-fluid px-4" alt="Trane logo in bold orange, symbolizing high-quality air conditioning and heating solutions for residential and commercial HVAC systems">
@@ -738,7 +745,7 @@
                             </a>
                         </div>                        
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="contact-cooper-heat-and-air-okc.html" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
+                            <a href="#service-page-first-sentence" class="d-block relative bg-dark-custom text-white p-2 rounded-10px dynamic-quote-link">
                                 <i class="id-color-2 p-3 rounded-10px fs-56 icofont-calculator"></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Request For</span>
@@ -747,7 +754,7 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="#testimonials-section-2" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
+                            <a href="#our-latest-reviews-cta-text" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
                                 <i class="id-color-2 p-3 rounded-10px fs-56 icofont-image" ></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Read</span>
@@ -759,7 +766,7 @@
                 </div>
             </section>
 
-            <section id="seo-content-section-2" class="seo-content-section bg-color-3 hyper-local-content-section" style="margin-top: -10px; margin-bottom: -20px; padding-bottom: 54px;">
+            <section id="hyperlocal-content-section" class="seo-content-section bg-color-3 hyper-local-content-section" style="margin-top: -10px; margin-bottom: -20px; padding-bottom: 54px;">
                 <div class="container">
                     <h2>Your Local AC Repair Team, Proudly Serving Tulsa</h2>
                     <p>
@@ -779,7 +786,7 @@
                             </ul>
                         </div>
 
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 images-duo">
                             <div class="dual-image-container">
                                 <div class="image-wrapper image-duo-first">
                                     <img src="images/HVACimages/hvac-repair-technician-fixing-compressor-unit.jpeg" style="height: 240px; width: 100%; object-fit: cover;" class="img-fluid rounded-20px" alt="HVAC repair technician fixing an air conditioning compressor unit.">
@@ -869,7 +876,7 @@
                     <div class="row g-4">
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".2s">
                             <a href="tel:+14053976654" class="d-block relative bg-dark-custom text-light p-2 rounded-10px">
-                                <i class="icon-color p-3 rounded-10px fs-56 icofont-phone-circle"></i>
+                                <i class="icon-color-2 p-3 rounded-10px fs-56 icofont-phone-circle"></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Immediate Service</span>
                                     <h4>Call +1 (405) 397-6654</h4><!--AI EDIT NUMBER-->
@@ -877,8 +884,8 @@
                             </a>
                         </div>                        
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".4s">
-                            <a href="contact-cooper-heat-and-air-okc.html" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
-                                <i class="icon-color p-3 rounded-10px fs-56 icofont-calculator"></i>
+                            <a href="#service-page-first-sentence" class="d-block relative bg-dark-custom text-white p-2 rounded-10px dynamic-quote-link">
+                                <i class="icon-color-2 p-3 rounded-10px fs-56 icofont-calculator"></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Request For</span>
                                     <h4>A Free Quote</h4>
@@ -886,8 +893,8 @@
                             </a>
                         </div>
                         <div class="col-lg-4 col-md-6 wow fadeInRight" data-wow-delay=".6s">
-                            <a href="#testimonials-section-services-pages" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
-                                <i class="icon-color p-3 rounded-10px fs-56 icofont-image"></i>
+                            <a href="#our-latest-reviews-cta-text" class="d-block relative bg-dark-custom text-white p-2 rounded-10px">
+                                <i class="icon-color-2 p-3 rounded-10px fs-56 icofont-image"></i>
                                 <div class="absolute abs-middle ml90">
                                     <span>Read</span>
                                     <h4>Our Latest Reviews</h4>
@@ -918,9 +925,9 @@
             <div class="container">
                 <div class="row gx-5">
                     <div class="col-lg-4 col-sm-6">
-                        <img src="images/cooperlogowhite.png" alt="Cooper Heat & Air Company in Oklahoma City OK Logo" width="300">
+                        <img src="images/airdynamicslogo1.png" alt="Cooper Heat & Air Company in Oklahoma City OK Logo" width="260">
                         <div class="spacer-20"></div>
-                        <p>We specialize in providing top-quality heating, ventilation, and air conditioning services tailored to your unique requirements. Our skilled technicians are dedicated to delivering reliable solutions that ensure your comfort and satisfaction.</p>
+                        <p>Since 2003, Air Dynamics of Tulsa has provided the Tulsa area with Exceptional Heating and Air Conditioning service. Our team can repair, and install any brand of HVAC equipment. We are here for you!</p>
 
                         <div class="social-icons mb-sm-30" style="margin-left: -12px">
                             <a href="https://www.facebook.com/people/Cooper-Heat-Air-LLC/100086182515133/#" target="_blank"><i class="fa-brands fa-facebook"></i></a>
@@ -1026,6 +1033,31 @@
             e.stopImmediatePropagation();
             }, true);
         });
+    </script>
+
+    <script>
+        function updateAllQuoteLinks() {
+            // Select ALL elements with the class 'dynamic-quote-link'
+            const quoteLinks = document.querySelectorAll('.dynamic-quote-link');
+            const desktopBreakpoint = 992;
+
+            // Loop through each link found and apply the logic
+            quoteLinks.forEach(link => {
+                if (window.innerWidth >= desktopBreakpoint) {
+                    // On desktop, scroll to the top of the page.
+                    link.href = "#top"; 
+                } else {
+                    // On mobile, scroll to the original target.
+                    link.href = "#service-page-first-sentence";
+                }
+            });
+        }
+
+        // Run the function when the page loads
+        window.addEventListener('load', updateAllQuoteLinks);
+
+        // Run the function again if the window is resized
+        window.addEventListener('resize', updateAllQuoteLinks);
     </script>
    
 <script> window.chtlConfig = { chatbotId: "2395979445" } </script>
