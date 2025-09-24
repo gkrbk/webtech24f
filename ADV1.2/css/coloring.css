@@ -110,6 +110,10 @@ h1.s2 .c1 span,
     color: var(--icon-color);
 }
 
+.icon-color-2 {
+    color: var(--icon-color-2);
+}
+
 ::selection {
     color:#ffffff;
     background:var(--secondary-color);
