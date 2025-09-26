@@ -162,6 +162,12 @@ body {
   word-spacing: 0px;
 }
 
+
+
+
+
+
+
 /*
 added media queries below:
 
@@ -633,6 +639,8 @@ added media queries below:
 }
 
 
+
+/* fixing white background drag on testimonials */
 @media (max-width: 991.98px){
   #service-page-testimonials-section { 
     margin:0!important; padding-top: 48px!important; 
@@ -13633,6 +13641,7 @@ i.bg-color-secondary {
 .overlay-white-7{background: rgba(255, 255, 255, .7)}
 .overlay-white-8{background: rgba(255, 255, 255, .8)}
 .overlay-white-9{background: rgba(255, 255, 255, .9)}
+.overlay-white-15{background: rgba(255, 255, 255, .15)}
 
 
 /* swiperjs */
