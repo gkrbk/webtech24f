@@ -13,16 +13,32 @@ require 'PHPMailer/src/SMTP.php';
 */
 
 // Recipients
-$fromEmail = 'no-reply@gkrdevelopment.com'; // Email address that will be in the from field of the message.
-$fromName = 'GKR Development'; // Name that will be in the from field of the message.
-$sendToEmail = 'contact@gkrdevelopment.com'; // Email address that will receive the message with the output of the form
-$sendToName = 'GKR Development Contact'; // Name that will receive the message with the output of the form
+$fromEmail = 'no-reply@airdynamicsoftulsa.com'; // Email address that will be in the from field of the message.
+$fromName = 'Air Dynamics Website: Message / Free Quote Form'; // Name that will be in the from field of the message.
+$sendToEmail = 'georgekangr@gmail.com'; // Email address that will receive the message with the output of the form
+$sendToName = 'George - Company Owner'; // Name that will receive the message with the output of the form
 
 // Subject
-$subject = 'Message from GKRdevelopment contact form';
+$subject = 'Message from Air Dynamics Website contact form';
 
 // Fields - Value of attribute name => Text to appear in the email
-$fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message', 'department' => 'Department');
+$fields = array(
+  // common
+  'name' => 'Name',
+  'Name' => 'Name',
+  'surname' => 'Surname',
+  'phone' => 'Phone',
+  'Phone' => 'Phone',
+  'email' => 'Email',
+  'Email' => 'Email',
+  'message' => 'Message',
+  'Message' => 'Message',
+
+  // extra fields we’re posting
+  'property-type' => 'Property Type',
+  'property_type' => 'Property Type',
+  'page' => 'Page',
+);
 
 // Success and error alerts
 $okMessage = 'We have received your inquiry. Stay tuned, we’ll get back to you very soon.';
@@ -72,7 +88,8 @@ try {
   $mail = new PHPMailer;
   $mail->setFrom($fromEmail, $fromName);
   $mail->addAddress($sendToEmail, $sendToName);
-  $mail->addReplyTo($from);
+  $replyEmail = filter_var($_POST['email'] ?? $_POST['Email'] ?? '', FILTER_VALIDATE_EMAIL) ?: $fromEmail;
+  $mail->addReplyTo($replyEmail);
   $mail->isHTML(true);
   $mail->CharSet = 'UTF-8';
   $mail->Subject = $subject;
@@ -113,5 +130,13 @@ if (!empty($_SERVER['HTTP_X_REQUESTED_WITH']) && strtolower($_SERVER['HTTP_X_REQ
 }
 // else just display the message
 else {
-  echo $responseArray['message'];
+  $to = '/contact-cooper-heat-and-air-okc.html?success=1';
+  if (!empty($_POST['redirect'])
+      && strpos($_POST['redirect'], '/') === 0
+      && strpos($_POST['redirect'], "\n") === false
+      && strpos($_POST['redirect'], "\r") === false) {
+    $to = $_POST['redirect'];
+  }
+  header('Location: ' . $to);
+  exit;
 }
