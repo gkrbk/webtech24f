@@ -1,0 +1,191 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": "https://airdynamicsoftulsa.com/ac-repair-tulsa/",
+      "url": "https://airdynamicsoftulsa.com/ac-repair-tulsa/",
+      "name": "AC Repair in Tulsa, OK | Rated 4.9/5 Stars | Air Dynamics",
+      "isPartOf": {
+        "@id": "https://airdynamicsoftulsa.com/#website"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://airdynamicsoftulsa.com/images/air-dynamics-of-tulsa-logo.png"
+      },
+      "description": "AC broken in the Tulsa heat? Air Dynamics offers fast, 24/7 emergency air conditioning repair. Licensed & insured. Call now for a free, no-pressure quote!",
+      "mainEntity": {
+        "@id": "https://airdynamicsoftulsa.com/#organization"
+      }
+    },
+    {
+      "@type": "HVACBusiness",
+      "@id": "https://airdynamicsoftulsa.com/#organization",
+      "name": "Air Dynamics of Tulsa, LLC",
+      "alternateName": "Air Dynamics of Tulsa",
+      "url": "https://airdynamicsoftulsa.com/",
+      "logo": "https://airdynamicsoftulsa.com/images/air-dynamics-of-tulsa-logo.png",
+      "image": "https://airdynamicsoftulsa.com/images/air-dynamics-of-tulsa-logo.png",
+      "telephone": "+19187289420",
+      "email": "Airdynamicsoftulsa@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1940 S 267th E Ave",
+        "addressLocality": "Catoosa",
+        "addressRegion": "OK",
+        "postalCode": "74015",
+        "addressCountry": "US"
+      },
+      "sameAs": [
+        "https://www.facebook.com/p/Air-Dynamics-of-Tulsa-LLC-100053946656097/",
+        "https://maps.app.goo.gl/4p5o6cyebkU3vpwG7"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "bestRating": "5",
+        "ratingCount": "0" 
+      },
+      "review": [
+          {
+              "@type": "Review",
+              "author": {
+                  "@type": "Person",
+                  "name": "Abi M."
+              },
+              "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5"
+              },
+              "reviewBody": "Pat and Steven have kept my house cool in the summer and warm in the winter for 10+ years now... Hard working, father/son duo that make you feel so at ease, they will fix your issue promptly without tacking on unnecessary expenses... If you need help with heat and air you can call them without any of the anxiety of being overcharged. They’re professional, HONEST, friendly and extremely knowledgeable."
+          },
+          {
+              "@type": "Review",
+              "author": {
+                  "@type": "Person",
+                  "name": "Chance R."
+              },
+              "reviewRating": {
+                  "@type": "Rating",
+                  "ratingValue": "5"
+              },
+              "reviewBody": "Air Dynamics of Tulsa is by far the best heat and air company I have ever had the pleasure of doing business with... When Pat arrived on Monday he was extremely professional and knowledgeable you could tell he had been doing this work for a long time... In this field it is easy for bigger companies to overcharge and not care for the people they are doing work for. Air Dynamics is the complete opposite I truly felt cared about from the first interaction until Pat was leaving my house and it didn't leave my wallet in shambles to have everything taken care of."
+          }
+      ],
+      "areaServed": [
+        { "@type": "City", "name": "Tulsa" },
+        { "@type": "City", "name": "Broken Arrow" },
+        { "@type": "City", "name": "Bixby" },
+        { "@type": "City", "name": "Jenks" },
+        { "@type": "City", "name": "Owasso" },
+        { "@type": "City", "name": "Sand Springs" },
+        { "@type": "City", "name": "Sapulpa" },
+        { "@type": "City", "name": "Catoosa" }
+      ],
+      "makesOffer": [
+        {
+          "@type": "Offer",
+          "itemOffered": {
+            "@type": "Service",
+            "name": "Air Conditioning Repair",
+            "serviceType": "Air Conditioning Repair",
+            "description": "When your air conditioner quits, our team is right around the corner with the fast air conditioning repair and expert skill needed to restore your cool relief.",
+            "provider": { "@id": "https://airdynamicsoftulsa.com/#organization" }
+          }
+        },
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Emergency AC Repair" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Installation" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Replacement" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "AC Tune Up" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Furnace Repair" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Furnace Installation" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Repair" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Installation" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "HVAC Maintenance" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Heat Pump Repair" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Indoor Air Quality" }},
+        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Thermostat Installation" }}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does an AC repair cost in Tulsa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<p>Because every repair is different, we start with a diagnostic visit to accurately identify the problem. Afterward, we provide a clear, upfront, flat-rate price for the repair. You approve the cost before any work begins, ensuring complete transparency with no surprises.</p>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can you get to my home for a repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<p>We know a broken AC is an emergency in the Oklahoma heat. As a local Tulsa company, we offer 24/7 emergency service and prioritize repair calls to get a technician to you as quickly as possible, often on the same day.</p>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you repair all brands of AC systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<p>Yes. Our technicians are trained to service all major makes and models. As a Ruud Authorized Dealer, we have specialized expertise in their systems, but our experience covers everything from Trane and Carrier to Lennox and Goodman.</p>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get an upfront estimate before AC repairs begin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<p>Absolutely. Once our technician identifies the problem, we'll explain the needed repair and provide a clear, flat-rate price. You approve the work and the cost before we start, so there are no surprises.</p>"
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I repair or replace my air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "<p>We will always give you an honest recommendation. If your system is over 10-12 years old and requires a major, expensive part like a compressor, investing in a new, high-efficiency unit is often the more cost-effective choice in the long run.</p>"
+          }
+        },
+        {
+            "@type": "Question",
+            "name": "Are your AC repairs guaranteed?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "<p>Yes. We are committed to providing reliable, lasting solutions. We stand behind our work with a full guarantee on both parts and labor to ensure your complete peace of mind.</p>"
+            }
+        },
+        {
+            "@type": "Question",
+            "name": "How do I schedule an AC repair?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "<p>To get started, simply give our friendly office a call at <a href='tel:+19187289420'>(918) 728-9420</a> or fill out the contact form on our website to request service online. We make it easy to schedule your AC repair in Tulsa.</p>"
+            }
+        }
+      ]
+    }
+  ]
+}
+</script>
+
