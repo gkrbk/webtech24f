@@ -1,0 +1,327 @@
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://airdynamicsoftulsa.com/#website",
+      "url": "https://airdynamicsoftulsa.com/",
+      "name": "Air Dynamics of Tulsa",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://airdynamicsoftulsa.com/ac-repair-tulsa/#webpage",
+      "url": "https://airdynamicsoftulsa.com/ac-repair-tulsa/",
+      "name": "AC Repair in Tulsa, OK | Rated 4.9/5 Stars | Air Dynamics",
+      "description": "AC broken in the Tulsa heat? Air Dynamics offers fast, 24/7 emergency air conditioning repair. Licensed & insured. Call now for a free, no-pressure quote!",
+      "isPartOf": { "@id": "https://airdynamicsoftulsa.com/#website" },
+      "about": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" },
+      "mainEntity": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://airdynamicsoftulsa.com/images/air-dynamics-of-tulsa-logo.png"
+      },
+      "inLanguage": "en-US"
+    },
+    {
+      "@type": "HVACBusiness",
+      "@id": "https://airdynamicsoftulsa.com/#hvacbusiness",
+      "name": "Air Dynamics of Tulsa",
+      "url": "https://airdynamicsoftulsa.com/",
+      "telephone": "+1-918-728-9420",
+      "email": "Airdynamicsoftulsa@gmail.com",
+      "image": [
+        "https://airdynamicsoftulsa.com/images/air-dynamics-of-tulsa-logo.png"
+      ],
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://airdynamicsoftulsa.com/images/air-dynamics-of-tulsa-logo.png"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "1940 S 267th E Ave",
+        "addressLocality": "Catoosa",
+        "addressRegion": "OK",
+        "postalCode": "74015",
+        "addressCountry": "US"
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/p/Air-Dynamics-of-Tulsa-LLC-100053946656097/",
+        "https://maps.app.goo.gl/4p5o6cyebkU3vpwG7"
+      ],
+      "hasMap": "https://maps.app.goo.gl/4p5o6cyebkU3vpwG7",
+      "foundingDate": "2003",
+      "areaServed": [
+        { "@type": "City", "name": "Tulsa" },
+        { "@type": "City", "name": "Broken Arrow" },
+        { "@type": "City", "name": "Bixby" },
+        { "@type": "City", "name": "Jenks" },
+        { "@type": "City", "name": "Owasso" },
+        { "@type": "City", "name": "Sand Springs" },
+        { "@type": "City", "name": "Sapulpa" },
+        { "@type": "City", "name": "Catoosa" }
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "@id": "https://airdynamicsoftulsa.com/#offer-catalog",
+        "name": "HVAC Services",
+        "itemListElement": [
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-ac-repair",
+              "name": "AC Repair",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-emergency-ac-repair",
+              "name": "Emergency AC Repair",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-ac-installation",
+              "name": "AC Installation",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-ac-replacement",
+              "name": "AC Replacement",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-ac-tune-up",
+              "name": "AC Tune Up",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-hvac-repair",
+              "name": "HVAC Repair",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-hvac-installation",
+              "name": "HVAC Installation",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-hvac-maintenance",
+              "name": "HVAC Maintenance",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-heat-pump-repair",
+              "name": "Heat Pump Repair",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-heat-pump-installation",
+              "name": "Heat Pump Installation",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-heat-pump-replacement",
+              "name": "Heat Pump Replacement",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-furnace-repair",
+              "name": "Furnace Repair",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-furnace-installation",
+              "name": "Furnace Installation",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-furnace-replacement",
+              "name": "Furnace Replacement",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-furnace-tune-up",
+              "name": "Furnace Tune Up",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-boiler-repair",
+              "name": "Boiler Repair",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-boiler-installation",
+              "name": "Boiler Installation",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-indoor-air-quality",
+              "name": "Indoor Air Quality",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          },
+          {
+            "@type": "Offer",
+            "itemOffered": {
+              "@type": "Service",
+              "@id": "https://airdynamicsoftulsa.com/#service-thermostat-installation",
+              "name": "Thermostat Installation",
+              "provider": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://airdynamicsoftulsa.com/ac-repair-tulsa/#faq",
+      "url": "https://airdynamicsoftulsa.com/ac-repair-tulsa/",
+      "about": { "@id": "https://airdynamicsoftulsa.com/#hvacbusiness" },
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How much does an AC repair cost in Tulsa?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Because every repair is different, we start with a diagnostic visit to accurately identify the problem. Afterward, we provide a clear, upfront, flat-rate price for the repair. You approve the cost before any work begins, ensuring complete transparency with no surprises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How quickly can you get to my home for a repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We know a broken AC is an emergency in the Oklahoma heat. As a local Tulsa company, we offer 24/7 emergency service and prioritize repair calls to get a technician to you as quickly as possible, often on the same day."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you repair all brands of AC systems?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our technicians are trained to service all major makes and models. As a Ruud Authorized Dealer, we have specialized expertise in their systems, but our experience covers everything from Trane and Carrier to Lennox and Goodman."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Will I get an upfront estimate before AC repairs begin?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Once our technician identifies the problem, we'll explain the needed repair and provide a clear, flat-rate price. You approve the work and the cost before we start, so there are no surprises."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I repair or replace my air conditioner?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "We will always give you an honest recommendation. If your system is over 10-12 years old and requires a major, expensive part like a compressor, investing in a new, high-efficiency unit is often the more cost-effective choice in the long run."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are your AC repairs guaranteed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. We are committed to providing reliable, lasting solutions. We stand behind our work with a full guarantee on both parts and labor to ensure your complete peace of mind."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I schedule an AC repair?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "To get started, simply give our friendly office a call at (918) 728-9420 or fill out the contact form on our website to request service online. We make it easy to schedule your AC repair in Tulsa."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
