@@ -178,10 +178,15 @@ body:not(.homepage) .text-logo .logo-main {
     .text-logo .logo-main {
         display: none;
     }
-    .text-logo .logo-mobile {
+    body:not(.homepage) .text-logo .logo-mobile {
         display: inline-block;
         font-size: 22px;
         color: #7597e0
+    }
+    body.homepage .text-logo .logo-mobile {
+        display: inline-block;
+        font-size: 22px;
+        color: #00287d
     }
 }
 
